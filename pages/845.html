@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bit-Serial Data Interface (BSD) — 2011 BMW 128i Coupe (E82) L6-3.0L (N52K) Service Manual | Operation CHARM</title>
+    <meta name='description' content="Detailed repair manual for the 2011 BMW 128i Coupe (E82) L6-3.0L (N52K).">
+    <link rel='stylesheet' href="../style.css">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+  </head>
+  <body>
+    <div class='theme-colors header'>
+      <div class='branding'><b>Operation CHARM</b>: Car repair manuals for everyone.</div>
+<div class=breadcrumbs><a class='breadcrumb-part' href="../">Home</a> <b>&gt;&gt;</b> <a class='breadcrumb-part' href="../BMW/">BMW</a> <b>&gt;&gt;</b> <a class='breadcrumb-part' href="../BMW/2011/">2011</a> <b>&gt;&gt;</b> <a class='breadcrumb-part' href="../index.html">128i Coupe (E82) L6-3.0L (N52K)</a> <b>&gt;&gt;</b> <a class='breadcrumb-part' href="0.html">Repair and Diagnosis</a> <b>&gt;&gt;</b> <a class='breadcrumb-part' href="0.html#Powertrain%20Management/">Powertrain Management</a> <b>&gt;&gt;</b> <a class='breadcrumb-part' href="0.html#Powertrain%20Management/Description%20and%20Operation/">Description and Operation</a> <b>&gt;&gt;</b> <a class='breadcrumb-part' href="845.html">Bit-Serial Data Interface (BSD)</a></div></div>
+<div class="theme-colors floaty-message lemon-message">
+  <b style="font-size: 1.5em; color: gold">Manuals through 2025 now available!</b>
+  <br><br>
+  Our trusted friends have launched a new website named LEMON, which has newer manuals. It also contains all the CHARM manuals.
+  <br><br>
+  LEMON is the spiritual successor to  CHARM, I recommend you try it!
+  <br><br>
+  Link: <a style='white-space: nowrap' href="../missing-page">lemon-manuals.la</a> or <a style='white-space: nowrap' href="../missing-page">lemon-manuals.org.ua</a>
+  <br><br>
+  (Some people have issue connecting. LEMON is investigating. For now, use Firefox or change your DNS server)
+  <br><br>
+  Or, hide this message: <a href="../missing-page">temporarily</a> or <a href="../missing-page">permanently</a>
+</div>
+<div class='main'>
+<h1>Bit-Serial Data Interface (BSD)</h1><br><br><b>Bit-Serial Data Interface (BSD)</b><br><br>The bit-serial data interface is a single-wire data bus with a data transfer rate of 1.2 kBd.<br><br>The following components are connected across the bit-serial data interface with the DME/DDE control unit:<br><span class='indent-2'>&#09;</span>-<span class='indent-5'>&#09;</span>Alternator (varies according to version)<br><span class='indent-2'>&#09;</span>-<span class='indent-5'>&#09;</span>Intelligent battery sensor (depending on model series)<br><span class='indent-2'>&#09;</span>-<span class='indent-5'>&#09;</span>Preglow control unit (on diesel engines prior to break-point for DDE7)<br><span class='indent-2'>&#09;</span>-<span class='indent-5'>&#09;</span>Electric coolant pump (depending on variant)<br><span class='indent-2'>&#09;</span>-<span class='indent-5'>&#09;</span>Oil condition sensor (depending on variant)<br><br>Only DDE control unit: Each component connected across the BSD is connected to its own pin on the DDE control unit. However, these pins are interconnected in the control unit.<br><br><b>Function</b><br>The following data is interchanged between the DME/DDE and the connected components:<br><span class='indent-2'>&#09;</span>-<span class='indent-5'>&#09;</span>Functional requirements from the DME/DDE to the components<br><span class='indent-2'>&#09;</span>-<span class='indent-5'>&#09;</span>Identification data of the components to the DME/DDE<br><span class='indent-2'>&#09;</span>-<span class='indent-5'>&#09;</span>Operating values of the components and their functions to the DME/DDE<br><span class='indent-2'>&#09;</span>-<span class='indent-5'>&#09;</span>Fault messages of the components to the DME/DDE<br><br><b>Diagnosis</b><br>The DME/DDE monitors the communication across the bit-serial data interface to the connected components. This means that line faults are also detected.<br><br>The connected components have their own diagnosis functionality and monitor the following:<br><span class='indent-2'>&#09;</span>-<span class='indent-5'>&#09;</span>The executed functions are monitored for faults (e.g. faulty preheating circuit for the preheating control unit)<br><span class='indent-2'>&#09;</span>-<span class='indent-5'>&#09;</span>Internal faults in the components<br><br>If a component detects a fault, it reports the fault across the bit-serial data interface to the DME/DDE. The DME/DDE then enters the fault in the fault memory.</div>
+<div class="theme-colors footer">
+  <i>pro multis</i> · <a href="../about.html">About Operation CHARM</a>
+</div>
+<script src="../script.js"></script>
+</body>
+</html>

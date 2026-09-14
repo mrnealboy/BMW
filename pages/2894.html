@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Control Unit, Car Access System (CAS) — 2011 BMW 128i Coupe (E82) L6-3.0L (N52K) Service Manual | Operation CHARM</title>
+    <meta name='description' content="Detailed repair manual for the 2011 BMW 128i Coupe (E82) L6-3.0L (N52K).">
+    <link rel='stylesheet' href="../style.css">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+  </head>
+  <body>
+    <div class='theme-colors header'>
+      <div class='branding'><b>Operation CHARM</b>: Car repair manuals for everyone.</div>
+<div class=breadcrumbs><a class='breadcrumb-part' href="../">Home</a> <b>&gt;&gt;</b> <a class='breadcrumb-part' href="../BMW/">BMW</a> <b>&gt;&gt;</b> <a class='breadcrumb-part' href="../BMW/2011/">2011</a> <b>&gt;&gt;</b> <a class='breadcrumb-part' href="../index.html">128i Coupe (E82) L6-3.0L (N52K)</a> <b>&gt;&gt;</b> <a class='breadcrumb-part' href="0.html">Repair and Diagnosis</a> <b>&gt;&gt;</b> <a class='breadcrumb-part' href="0.html#Body%20and%20Frame/">Body and Frame</a> <b>&gt;&gt;</b> <a class='breadcrumb-part' href="0.html#Body%20and%20Frame/Locks/">Locks</a> <b>&gt;&gt;</b> <a class='breadcrumb-part' href="0.html#Body%20and%20Frame/Locks/Keyless%20Entry/">Keyless Entry</a> <b>&gt;&gt;</b> <a class='breadcrumb-part' href="0.html#Body%20and%20Frame/Locks/Keyless%20Entry/Description%20and%20Operation/">Description and Operation</a> <b>&gt;&gt;</b> <a class='breadcrumb-part' href="2894.html">Control Unit, Car Access System (CAS)</a></div></div>
+<div class="theme-colors floaty-message lemon-message">
+  <b style="font-size: 1.5em; color: gold">Manuals through 2025 now available!</b>
+  <br><br>
+  Our trusted friends have launched a new website named LEMON, which has newer manuals. It also contains all the CHARM manuals.
+  <br><br>
+  LEMON is the spiritual successor to  CHARM, I recommend you try it!
+  <br><br>
+  Link: <a style='white-space: nowrap' href="../missing-page">lemon-manuals.la</a> or <a style='white-space: nowrap' href="../missing-page">lemon-manuals.org.ua</a>
+  <br><br>
+  (Some people have issue connecting. LEMON is investigating. For now, use Firefox or change your DNS server)
+  <br><br>
+  Or, hide this message: <a href="../missing-page">temporarily</a> or <a href="../missing-page">permanently</a>
+</div>
+<div class='main'>
+<h1>Control Unit, Car Access System (CAS)</h1><br><br><b>Control Unit, Car Access System (CAS)</b><br><br>The CAS serves as an antitheft alarm system and enables the start of BMW vehicles.<br>A transponder chip is integrated in each of the vehicle keys. A ring coil is fitted about the ignition lock. The transponder chip is powered by this coil from the CAS control unit. This means that no battery is necessary in the key. The power supply and data transfer take place in the same way as a transformer between the loop aerial (coil) at the ignition lock and the transponder chip.<br>The key then sends data to the CAS control unit. If these data are correct, the CAS control unit enables the starter by means of a relay located in the control unit and additionally sends a coded start enable signal via a data link to the DME/DDE. These procedures may result in a start delay of up to half a second.<br><br><b>Components</b><br><br><b>Data link to DME/DDE</b><br>The CAS control unit sends a coded enable signal to the DME/DDE via the data link. The engine cannot be started before this signal has been transferred.<br><br><b>Engine control unit (DME/DDE) with coded start enable input</b><br>The engine control unit (DME/DDE) only enables engine start if a correct enable signal is received from the CAS control unit.<br><br><b>EWS-DME/DDE interface</b><br>Identical variable codes are stored in the CAS control unit and in the DME/DDE control unit. The value of these codes changes after every start procedure. Start enable only takes place if the code sent by the CAS control unit agrees with the code calculated in the DME/DDE control unit.<br>The control units are allocated only during initial programming of the DME/DDE control unit. The engine control unit then adopts the basic code of the CAS control unit.<br><br><b>IMPORTANT:</b><br>It is not possible to replace the DME/DDE or CAS control units for test purposes.<br>In rare cases, it is possible that the variable codes in both control units deviate from each other. In these cases, it is possible to reset both codes to the initial value via the service function 'DME(DDE) - CAS matching' (EWS matching).<br><br><b>Key identification and start procedure</b><br>The following procedure takes place after inserting the vehicle key in the ignition lock:<br><span class='indent-2'>&#09;</span>-<span class='indent-5'>&#09;</span>The transponder in the key is powered via the loop aerial and sends the key data to the CAS control unit.<br><span class='indent-2'>&#09;</span>-<span class='indent-5'>&#09;</span>The CAS control unit checks the key data to ensure it is correct and only then sends an enable signal to the starter.<br><span class='indent-2'>&#09;</span>-<span class='indent-5'>&#09;</span>The CAS control unit sends the variable code to DME/DDE. There, the variable code is checked against the saved variable code; if they match, the fuel injection is released.<br><span class='indent-2'>&#09;</span>-<span class='indent-5'>&#09;</span>After the engine has started, the CAS control unit generates new key data (change code) and transfers them to the transponder in the key.<br><span class='indent-2'>&#09;</span>-<span class='indent-5'>&#09;</span>A new variable code is also created and stored in the DME/DDE control unit.<br><br><b>Fault recognition in engine control unit</b><br>The following faults are monitored in the engine control unit:<br><span class='indent-2'>&#09;</span>-<span class='indent-5'>&#09;</span>Interface, i.e. line to CAS control unit: In this case, the check is carried out in order to establish whether a signal is received and whether this signal is not subject to excessive interference.<br><span class='indent-2'>&#09;</span>-<span class='indent-5'>&#09;</span>Variable code: A check is conducted as to whether the variable code which is sent by the CAS control unit agrees with the value calculated in the DME(DDE) control unit.<br><br>Engine start is inhibited if a fault is detected.</div>
+<div class="theme-colors footer">
+  <i>pro multis</i> · <a href="../about.html">About Operation CHARM</a>
+</div>
+<script src="../script.js"></script>
+</body>
+</html>

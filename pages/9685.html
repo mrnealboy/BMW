@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MOST Bus — 2011 BMW 128i Coupe (E82) L6-3.0L (N52K) Service Manual | Operation CHARM</title>
+    <meta name='description' content="Detailed repair manual for the 2011 BMW 128i Coupe (E82) L6-3.0L (N52K).">
+    <link rel='stylesheet' href="../style.css">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+  </head>
+  <body>
+    <div class='theme-colors header'>
+      <div class='branding'><b>Operation CHARM</b>: Car repair manuals for everyone.</div>
+<div class=breadcrumbs><a class='breadcrumb-part' href="../">Home</a> <b>&gt;&gt;</b> <a class='breadcrumb-part' href="../BMW/">BMW</a> <b>&gt;&gt;</b> <a class='breadcrumb-part' href="../BMW/2011/">2011</a> <b>&gt;&gt;</b> <a class='breadcrumb-part' href="../index.html">128i Coupe (E82) L6-3.0L (N52K)</a> <b>&gt;&gt;</b> <a class='breadcrumb-part' href="0.html">Repair and Diagnosis</a> <b>&gt;&gt;</b> <a class='breadcrumb-part' href="0.html#Powertrain%20Management/">Powertrain Management</a> <b>&gt;&gt;</b> <a class='breadcrumb-part' href="0.html#Powertrain%20Management/Computers%20and%20Control%20Systems/">Computers and Control Systems</a> <b>&gt;&gt;</b> <a class='breadcrumb-part' href="650.html">Information Bus</a> <b>&gt;&gt;</b> <a class='breadcrumb-part' href="650.html#Description%20and%20Operation/">Description and Operation</a> <b>&gt;&gt;</b> <a class='breadcrumb-part' href="9685.html">MOST Bus</a></div></div>
+<div class="theme-colors floaty-message lemon-message">
+  <b style="font-size: 1.5em; color: gold">Manuals through 2025 now available!</b>
+  <br><br>
+  Our trusted friends have launched a new website named LEMON, which has newer manuals. It also contains all the CHARM manuals.
+  <br><br>
+  LEMON is the spiritual successor to  CHARM, I recommend you try it!
+  <br><br>
+  Link: <a style='white-space: nowrap' href="../missing-page">lemon-manuals.la</a> or <a style='white-space: nowrap' href="../missing-page">lemon-manuals.org.ua</a>
+  <br><br>
+  (Some people have issue connecting. LEMON is investigating. For now, use Firefox or change your DNS server)
+  <br><br>
+  Or, hide this message: <a href="../missing-page">temporarily</a> or <a href="../missing-page">permanently</a>
+</div>
+<div class='main'>
+<h1>MOST Bus</h1><br><br><b>MOST Bus</b><br><br>The MOST (Media Oriented Systems Transport) network uses a ring structure to enable data communication between the various control units.<br>Data transmission is by means of fibre-optic cable.<br>Data transmission on the ring bus takes place in one direction only.<br>On the MOST ring, messages can only be transmitted provided the bus ring is complete and fully functional . If, for example, the power supply or the diode of a control unit is defective, it is no longer possible to communicate with the control units on the MOST bus. An exception is the gateway control unit of the head unit (Rad2, CHAMP, M-ASK, CCC or following). The control unit is connected both to the MOST data bus and the K-CAN.<br><br><b>Head-unit</b><br>The head unit is the interface between the data buses MOST and K-CAN. For the rest of troubleshooting (read fault code memory, etc.), the associated control units must be selected at the BMW diagnosis system. One of the following head units is fitted in the vehicle.<br><span class='indent-2'>&#09;</span>-<span class='indent-5'>&#09;</span>Radio 2, (RAD2, RAD2 gateway)<br><span class='indent-2'>&#09;</span>-<span class='indent-5'>&#09;</span>Central Head Unit and Multimedia Platform, (CHAMP-BO, CHAMP-GW)<br><span class='indent-2'>&#09;</span>-<span class='indent-5'>&#09;</span>Multi Audio System controller, (M-ASK-BO, M-ASK-GW, M-ASK-NAV)<br><span class='indent-2'>&#09;</span>-<span class='indent-5'>&#09;</span>Car Communication Computer, (CCC-ANT, CCC-ASK, CCC-A, CCC-BO, CCC-GW)<br><span class='indent-2'>&#09;</span>-<span class='indent-5'>&#09;</span>Car Information Computer, (CIC, CIC-GW)<br><br><b>Distinction between the head units</b><br>Unlike CIC, M-ASK and CHAMP the CCC has two slots at the front. This external characteristic can be used to distinguish the CCC and M-ASK.<br><br><b>Deactivation, overtemperature</b><br>If a control unit becomes too hot, this control unit switches off for up to 10 minutes. Furthermore, the entire MOST bus can switch off for 10 minutes. After the control unit has cooled down, it is functional once again.<br>If the fault "Cutoff excess temperature" is stored in a MOST control unit, the control unit concerned and the head unit store the fault. This means there are two possibilities:<br><span class='indent-2'>&#09;</span>-<span class='indent-5'>&#09;</span>Only the head unit has stored the fault: Then this control unit has switched off due to excess temperature.<br><span class='indent-2'>&#09;</span>-<span class='indent-5'>&#09;</span>The head unit and other MOST control units have stored the fault: Then only the other MOST control units have switched off due to excess temperature. In addition, the head unit can have switched itself off.<br><br><b>Diagnosis</b><br>At the function selection (Body, Bus Functions, MOST functions), other test modules for analysis of the MOST control units or MOST bus can be selected.</div>
+<div class="theme-colors footer">
+  <i>pro multis</i> · <a href="../about.html">About Operation CHARM</a>
+</div>
+<script src="../script.js"></script>
+</body>
+</html>

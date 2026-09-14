@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Description of Bus Diagnosis — 2011 BMW 128i Coupe (E82) L6-3.0L (N52K) Service Manual | Operation CHARM</title>
+    <meta name='description' content="Detailed repair manual for the 2011 BMW 128i Coupe (E82) L6-3.0L (N52K).">
+    <link rel='stylesheet' href="../style.css">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+  </head>
+  <body>
+    <div class='theme-colors header'>
+      <div class='branding'><b>Operation CHARM</b>: Car repair manuals for everyone.</div>
+<div class=breadcrumbs><a class='breadcrumb-part' href="../">Home</a> <b>&gt;&gt;</b> <a class='breadcrumb-part' href="../BMW/">BMW</a> <b>&gt;&gt;</b> <a class='breadcrumb-part' href="../BMW/2011/">2011</a> <b>&gt;&gt;</b> <a class='breadcrumb-part' href="../index.html">128i Coupe (E82) L6-3.0L (N52K)</a> <b>&gt;&gt;</b> <a class='breadcrumb-part' href="0.html">Repair and Diagnosis</a> <b>&gt;&gt;</b> <a class='breadcrumb-part' href="0.html#Powertrain%20Management/">Powertrain Management</a> <b>&gt;&gt;</b> <a class='breadcrumb-part' href="0.html#Powertrain%20Management/Computers%20and%20Control%20Systems/">Computers and Control Systems</a> <b>&gt;&gt;</b> <a class='breadcrumb-part' href="650.html">Information Bus</a> <b>&gt;&gt;</b> <a class='breadcrumb-part' href="650.html#Description%20and%20Operation/">Description and Operation</a> <b>&gt;&gt;</b> <a class='breadcrumb-part' href="9684.html">Description of Bus Diagnosis</a></div></div>
+<div class="theme-colors floaty-message lemon-message">
+  <b style="font-size: 1.5em; color: gold">Manuals through 2025 now available!</b>
+  <br><br>
+  Our trusted friends have launched a new website named LEMON, which has newer manuals. It also contains all the CHARM manuals.
+  <br><br>
+  LEMON is the spiritual successor to  CHARM, I recommend you try it!
+  <br><br>
+  Link: <a style='white-space: nowrap' href="../missing-page">lemon-manuals.la</a> or <a style='white-space: nowrap' href="../missing-page">lemon-manuals.org.ua</a>
+  <br><br>
+  (Some people have issue connecting. LEMON is investigating. For now, use Firefox or change your DNS server)
+  <br><br>
+  Or, hide this message: <a href="../missing-page">temporarily</a> or <a href="../missing-page">permanently</a>
+</div>
+<div class='main'>
+<h1>Description of Bus Diagnosis</h1><br><br><b>Description Of Bus Diagnosis</b><br><br><b>Brief description:</b><br>The data exchange of the control units is across various bus systems with different features. These bus systems are interconnected via so-called gateways. The task of these gateways is to interchange data between the connected bus systems. The bus structure is shown in the adjacent system wiring diagram.<br><br>The individual buses are to assigned to the following functional ranges in the vehicle:<br><span class='indent-2'>&#09;</span>-<span class='indent-5'>&#09;</span>PT-CAN: control units in the area of drive and chassis and suspension<br><span class='indent-2'>&#09;</span>-<span class='indent-5'>&#09;</span>K-CAN: control units in the area of body electronics (E65: K-CAN system and K-CAN peripherals)<br><span class='indent-2'>&#09;</span>-<span class='indent-5'>&#09;</span>F-CAN: control units in the area of the chassis electronics (not E65)<br><span class='indent-2'>&#09;</span>-<span class='indent-5'>&#09;</span>Local Controller Area Network: peripheral control units in the area of powertrain<br><span class='indent-2'>&#09;</span>-<span class='indent-5'>&#09;</span>byteflight: airbag control units (E65, E60)<br><span class='indent-2'>&#09;</span>-<span class='indent-5'>&#09;</span>MOST: control units in the area of audio and communication<br><br>If faults occur in this communication framework, fault entries are created in the control units involved. Here, a distinction can normally be made between line faults and logical faults such as missing messages. It should be borne in mind that a fault cause generally causes a number of fault entries in different control units.<br>The following fault causes can lead to bus faults:<br><span class='indent-2'>&#09;</span>-<span class='indent-5'>&#09;</span>Short circuit of a bus line<br><span class='indent-2'>&#09;</span>-<span class='indent-5'>&#09;</span>Open circuit of a bus line<br><span class='indent-2'>&#09;</span>-<span class='indent-5'>&#09;</span>Fault in a gateway<br><span class='indent-2'>&#09;</span>-<span class='indent-5'>&#09;</span>Fault in the transmitter or receiver of a control unit<br><br>This procedure evaluates the fault entries as a whole. The evaluation of the combination of existing fault entries provides the most probably fault cause. The analysis is restricted to the CAN and byteflight systems (E65, E60).<br>If there has been an undervoltage situation in the vehicle, bus faults can also (erroneously) be entered. Check whether an undervoltage fault is stored in more than one control unit. If this is the case, there is no further evaluation of the bus faults; the fault cause can be found in the area of the voltage supply.</div>
+<div class="theme-colors footer">
+  <i>pro multis</i> · <a href="../about.html">About Operation CHARM</a>
+</div>
+<script src="../script.js"></script>
+</body>
+</html>
